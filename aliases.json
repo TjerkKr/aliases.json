@@ -1,0 +1,439 @@
+{
+    "deadbeef0201": {
+        "firstseen": "2015-09-25T00:45:02",
+        "nodeinfo": {
+            "hostname": "Gateway-1",
+            "node_id": "de:ad:be:ef:04:01",
+            "network": {
+                "mac": "de:ad:be:ef:04:01"
+            }
+        }
+    },
+    "deadbeef0302": {
+       "firstseen": "2016-08-28T20:15:00",
+       "nodeinfo": {
+           "hostname": "Gateway-2",
+           "node_id": "de:ad:be:ef:03:02",
+           "network": {
+               "mac": "de:ad:be:ef:03:02"
+           }
+       }
+    },
+    "deadbeef0103": {
+        "firstseen": "2015-09-25T00:45:02",
+        "nodeinfo": {
+            "hostname": "Gateway-3",
+            "node_id": "de:ad:be:ef:01:03",
+            "network": {
+                "mac": "de:ad:be:ef:01:03"
+            }
+        }
+    },
+    "deadbeef0104": {
+       "firstseen": "2016-08-28T20:15:00",
+       "nodeinfo": {
+           "hostname": "Gateway-4",
+           "node_id": "de:ad:be:ef:01:04",
+           "network": {
+               "mac": "de:ad:be:ef:01:04"
+           }
+       }
+   },
+   "dae78e72daa1": {
+        "nodeinfo": {
+            "owner": {
+                "contact": "Freifunk Fulda"
+            },
+"no": {
+            "location": {
+                "longitude": 11.013692021,
+                "latitude": 49.449364830
+            }},
+            "hostname": "Gateway-1-Tunnel-1",
+            "network": {
+                "addresses": [
+                    "10.185.0.1"
+                ],
+                "mac": "da:e7:8e:72:da:a1",
+                "mesh": {
+                    "bat0": {
+                        "interfaces": {
+                            "other": [
+                                "da:00:8e:72:da:a1"
+                            ],
+                            "tunnel": [
+                                "da:e7:8e:72:da:a1"
+                            ]
+                        }
+                    }
+                },
+                "mesh_interfaces": [
+                    "da:00:8e:72:da:a1",
+                    "da:e7:8e:72:da:a1 "
+                ]
+            },
+            "node_id": "dae78e72daa1",
+            "hardware": {
+                "model": "Common KVM processor @ 2.26GHz",
+                "nproc": "2"
+            },
+            "pages": [
+                "http://gw01.fulda.freifunk.net/"
+            ]
+        },
+        "flags": {
+            "gateway": true
+        },
+        "firstseen": "2015-09-25T00:45:02",
+        "statistics": {
+            "clients": {
+                "wifi": 0,
+                "total": 0
+            }
+        },
+        "neighbours": {
+            "batadv": {
+                "da:e7:8e:72:da:a1": {},
+                "da:00:8e:72:da:a1": {
+                    "neighbours": {
+                      "26:13:9d:ea:e1:e1": { "lastseen": 0.08, "tq": 255 },
+                      "26:13:9d:ea:e1:e2": { "lastseen": 0.08, "tq": 255 },
+                      "26:13:9d:da:31:01": { "lastseen": 0.08, "tq": 255 },
+                      "26:13:9d:da:31:02": { "lastseen": 0.08, "tq": 255 },
+                      "da:00:8e:72:da:a2": { "lastseen": 0.08, "tq": 255 }
+                    }
+                }
+            }
+        }
+    },
+    "dae78e72daa2": {
+        "nodeinfo": {
+"no": {            "location": {
+                "longitude": 11.013692021,
+                "latitude": 49.449282874
+       }     },
+            "owner": {
+                "contact": "Freifunk Fulda"
+            },
+            "hostname": "Gateway-1-Tunnel-2",
+            "network": {
+                "addresses": [
+                    "10.185.0.1"
+                ],
+                "mac": "da:e7:8e:72:da:a2",
+                "mesh": {
+                    "bat0": {
+                        "interfaces": {
+                            "other": [
+                                "da:00:8e:72:da:a2"
+                            ],
+                            "tunnel": [
+                                "da:e7:8e:72:da:a2"
+                            ]
+                        }
+                    }
+                },
+                "mesh_interfaces": [
+                    "da:00:8e:72:da:a2",
+                    "da:e7:8e:72:da:a2"
+                ]
+            },
+            "node_id": "dae78e72daa2",
+            "hardware": {
+                "model": "Common KVM processor @ 2.26GHz",
+                "nproc": "2"
+            },
+            "pages": [
+                "http://gw01.fulda.freifunk.net/"
+            ]
+        },
+        "flags": {
+            "gateway": true
+        },
+        "firstseen": "2015-09-25T00:45:02",
+        "statistics": {
+            "clients": {
+                "wifi": 0,
+                "total": 0
+            }
+        },
+        "neighbours": {
+            "batadv": {
+                "da:e7:8e:72:da:a2": {},
+                "da:00:8e:72:da:a2": {
+                    "neighbours": {
+                      "26:13:9d:ea:e1:e1": { "lastseen": 0.08, "tq": 255 },
+                      "26:13:9d:ea:e1:e2": { "lastseen": 0.08, "tq": 255 },
+                      "26:13:9d:da:31:01": { "lastseen": 0.08, "tq": 255 },
+                      "26:13:9d:da:31:02": { "lastseen": 0.08, "tq": 255 },
+                      "da:00:8e:72:da:a1": { "lastseen": 0.08, "tq": 255 }
+                    }
+                }
+            }
+        }
+    },
+  "26139deae111": {
+        "nodeinfo": {
+  "no": {          "location": {
+                "longitude": 6.817298,
+                "latitude": 51.267451
+         }   },
+            "owner": {
+                "contact": "Freifunk Fulda"
+            },
+            "hostname": "Gateway-3-Tunnel-1",
+            "network": {
+                "addresses": [
+                    "10.185.0.3"
+                ],
+                "mac": "26:13:9d:ea:e1:11",
+                "mesh": {
+                    "bat0": {
+                        "interfaces": {
+                            "other": [
+                                "26:13:9d:ea:e1:e1"
+                            ],
+                            "tunnel": [
+                                "26:13:9d:ea:e1:11"
+                            ]
+                        }
+                    }
+                },
+                "mesh_interfaces": [
+                    "26:13:9d:ea:e1:11",
+                    "26:13:9d:ea:e1:e1"
+                ]
+            },
+            "node_id": "26139deae111",
+            "hardware": {
+                "model": "Intel Xeon E312xx (Sandy Bridge) @ 3.40GHz",
+                "nproc": "2"
+            },
+            "pages": [
+                "http://gw03.fulda.freifunk.net/"
+            ]
+        },
+        "flags": {
+            "gateway": true
+        },
+        "firstseen": "2015-09-25T00:45:02",
+        "statistics": {
+            "clients": {
+                "wifi": 0,
+                "total": 0
+            }
+        },
+        "neighbours": {
+            "batadv": {
+                "26:13:9d:ea:e1:11": {},
+                "26:13:9d:ea:e1:e1": {
+                    "neighbours": {
+                      "da:00:8e:72:da:a1": { "lastseen": 0.08, "tq": 255 },
+                      "da:00:8e:72:da:a2": { "lastseen": 0.08, "tq": 255 },
+                      "26:13:9d:da:31:01": { "lastseen": 0.08, "tq": 255 },
+                      "26:13:9d:da:31:02": { "lastseen": 0.08, "tq": 255 },
+                      "26:13:9d:ea:e1:e2": { "lastseen": 0.08, "tq": 255 }
+                    }
+                }
+            }
+        }
+    },
+"26139deae112": {
+        "nodeinfo": {
+  "no": {          "location": {
+                "longitude": 6.817298,
+                "latitude": 51.267451
+         }   },
+            "owner": {
+                "contact": "Freifunk Fulda"
+            },
+            "hostname": "Gateway-3-Tunnel-2",
+            "network": {
+                "addresses": [
+                    "10.185.0.3"
+                ],
+                "mac": "26:13:9d:ea:e1:12",
+                "mesh": {
+                    "bat0": {
+                        "interfaces": {
+                            "other": [
+                                "26:13:9d:ea:e1:e2"
+                            ],
+                            "tunnel": [
+                                "26:13:9d:ea:e1:12"
+                            ]
+                        }
+                    }
+                },
+                "mesh_interfaces": [
+                    "26:13:9d:ea:e1:12",
+                    "26:13:9d:ea:e1:e2"
+                ]
+            },
+            "node_id": "26139deae112",
+            "hardware": {
+                "model": "Intel Xeon E312xx (Sandy Bridge) @ 3.40GHz",
+                "nproc": "2"
+            },
+            "pages": [
+                "http://gw03.fulda.freifunk.net/"
+            ]
+        },
+        "flags": {
+            "gateway": true
+        },
+        "firstseen": "2015-09-25T00:45:02",
+        "statistics": {
+            "clients": {
+                "wifi": 0,
+                "total": 0
+            }
+        },
+        "neighbours": {
+            "batadv": {
+                "26:13:9d:ea:e1:12": {},
+                "26:13:9d:ea:e1:e2": {
+                    "neighbours": {
+                      "da:00:8e:72:da:a1": { "lastseen": 0.08, "tq": 255 },
+                      "da:00:8e:72:da:a2": { "lastseen": 0.08, "tq": 255 },
+                      "26:13:9d:da:31:01": { "lastseen": 0.08, "tq": 255 },
+                      "26:13:9d:da:31:02": { "lastseen": 0.08, "tq": 255 },
+                      "26:13:9d:ea:e1:e1": { "lastseen": 0.08, "tq": 255 }
+                    }
+                }
+            }
+        }
+    },
+    "26139dda3181": {
+        "nodeinfo": {
+ "no": {           "location": {
+                "longitude": 6.817309,
+                "latitude": 51.267330
+        }    },
+            "owner": {
+                "contact": "Freifunk Fulda"
+            },
+            "hostname": "Gateway-4-Tunnel-1",
+            "network": {
+                "addresses": [
+                    "10.185.0.4"
+                ],
+                "mac": "26:13:9d:da:31:81",
+                "mesh": {
+                    "bat0": {
+                        "interfaces": {
+                            "other": [
+                                "26:13:9d:da:31:01"
+                            ],
+                            "tunnel": [
+                                "26:13:9d:da:31:81"
+                            ]
+                        }
+                    }
+                },
+                "mesh_interfaces": [
+                    "26:13:9d:da:31:01",
+                    "26:13:9d:da:31:81"
+                ]
+            },
+            "node_id": "26139dda3181",
+            "hardware": {
+                "model": "Intel(R) Core(TM) i7-6700 CPU @ 3.40GHz",
+                "nproc": "4"
+            },
+            "pages": [
+                "http://gw04.fulda.freifunk.net/"
+            ]
+        },
+        "flags": {
+            "gateway": true
+        },
+        "firstseen": "2017-01-09T14:55:02",
+        "statistics": {
+            "clients": {
+                "wifi": 0,
+                "total": 0
+            }
+        },
+        "neighbours": {
+            "batadv": {
+                "26:13:9d:da:31:01": {},
+                "26:13:9d:da:31:81": {
+                    "neighbours": {
+                        "da:00:8e:72:da:a1": { "lastseen": 0.08, "tq": 255 },
+                        "da:00:8e:72:da:a2": { "lastseen": 0.08, "tq": 255 },
+                        "26:13:9d:ea:e1:e1": { "lastseen": 0.08, "tq": 255 },
+                        "26:13:9d:ea:e1:e2": { "lastseen": 0.08, "tq": 255 },
+                        "26:13:9d:da:31:02": { "lastseen": 0.08, "tq": 255 }
+                    }
+                }
+            }
+        }
+    },
+    "26139dda3182": {
+        "nodeinfo": {
+ "no": {           "location": {
+                "longitude": 6.817309,
+                "latitude": 51.267330
+        }    },
+            "owner": {
+                "contact": "Freifunk Fulda"
+            },
+            "hostname": "Gateway-4-Tunnel-2",
+            "network": {
+                "addresses": [
+                    "10.185.0.4"
+                ],
+                "mac": "26:13:9d:da:31:82",
+                "mesh": {
+                    "bat0": {
+                        "interfaces": {
+                            "other": [
+                                "26:13:9d:da:31:02"
+                            ],
+                            "tunnel": [
+                                "26:13:9d:da:31:82"
+                            ]
+                        }
+                    }
+                },
+                "mesh_interfaces": [
+                    "26:13:9d:da:31:02",
+                    "26:13:9d:da:31:82"
+                ]
+            },
+            "node_id": "26139dda3182",
+            "hardware": {
+                "model": "Intel(R) Core(TM) i7-6700 CPU @ 3.40GHz",
+                "nproc": "4"
+            },
+            "pages": [
+                "http://gw04.fulda.freifunk.net/"
+            ]
+        },
+        "flags": {
+            "gateway": true
+        },
+        "firstseen": "2017-01-09T14:55:02",
+        "statistics": {
+            "clients": {
+                "wifi": 0,
+                "total": 0
+            }
+        },
+        "neighbours": {
+            "batadv": {
+                "26:13:9d:da:31:02": {},
+                "26:13:9d:da:31:82": {
+                    "neighbours": {
+                      "da:00:8e:72:da:a1": { "lastseen": 0.08, "tq": 255 },
+                      "da:00:8e:72:da:a2": { "lastseen": 0.08, "tq": 255 },
+                      "26:13:9d:ea:e1:e1": { "lastseen": 0.08, "tq": 255 },
+                      "26:13:9d:ea:e1:e2": { "lastseen": 0.08, "tq": 255 },
+                      "26:13:9d:da:31:01": { "lastseen": 0.08, "tq": 255 }
+                    }
+                }
+            }
+        }
+    }
+  }
