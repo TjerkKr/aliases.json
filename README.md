@@ -1,6 +1,8 @@
 # aliases.json
 aliases.json for hopglass-server
 
+![Bild1](https://raw.githubusercontent.com/freifunk-fulda/aliases.json/master/forcegraph.png "Übersicht der Gateway's in Fulda")
+
 ## Werte für Fulda
 
 ### MAC - Adresses (Other-Interface)
