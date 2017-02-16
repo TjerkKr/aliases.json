@@ -289,7 +289,7 @@ Vieles von oben ist optional:
 
 Reicht prinzipiell.
 
-Daten wie Auslastung. Ram-Verbrauch, CPU Model, und ähnliches können mittels:
+Daten wie Auslastung, Ram-Verbrauch, CPU Model, und ähnliches können mittels:
 
      https://github.com/hopglass/node-respondd
      
