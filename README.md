@@ -130,7 +130,7 @@ aliases.json for hopglass-server
 
 zum setzen der Koordinaten:
 
-				},
+                },
                 "location": {
                 "longitude": 11.013692021,
                 "latitude": 49.449364830
@@ -178,5 +178,118 @@ Der "tunnel"-Eintrag steht für die MAC-Adresse des VPN:
                            "da:00:8e:72:da:a1",
                            "da:e7:8e:72:da:a1 "
                        ]
+
+#### NodeID wie oben
+
+        "node_id": "dae78e72daa1",
+        
+#### Hardware den Verwendeten Prozessor ... (nproc = Kernanzahl)
+        "hardware": {
+            "model": "Common KVM processor @ 2.26GHz",
+            "nproc": "2"
+        },
+ 
+#### Mittels Pages kann man eine  Webseite angeben
+In diesem Fall ist ein Link zur Status-Seite des Gateways angegeben.
+Man kann aber auch mehrere Webseiten angeben.   
+        
+        "pages": [
+            "http://gw01.fulda.freifunk.net/"
+        ]
+    },
+    
+#### den Gateway-Flag setzen 
+    "flags": {
+        "gateway": true
+    },
+#### firstseen setzen ist wichtig damit das Gateway/Supernode nicht ständig als neu angezeigt wird.
+    "firstseen": "2015-09-25T00:45:02",
+    
+#### Statistics kann man normal ignorieren
+    "statistics": {
+        "clients": {
+            "wifi": 0,
+            "total": 0
+        }
+    },
+    
+#### Neigbours 
+Hierüber definiert man die Netzwerkverbindungen.
+    "neighbours": {
+        "batadv": {
+
+Das erste Interface ist das VPN interfac:
+
+            "da:e7:8e:72:da:a1": {},
+            
+Die Klammer muss leer sein / Hopglass ordnet selbst die passenden Verbindungen zu.
+
+Das 2. Interface ist das "other"-Interface:
+
+            "da:00:8e:72:da:a1": {
+                "neighbours": {
+                    "26:13:9d:ea:e1:e1": { "lastseen": 0.08, "tq": 255 },
+                    "da:00:8e:72:da:a2": { "lastseen": 0.08, "tq": 255 }
+                }
+            }
+        }
+    }
+
+In diesem Fall ist eine Verbindung nach:
+
+Gateway-1-Tunnel 2
+
+und 
+
+Gateway-2-Tunnel 2
+
+gesetzt.
+
+tq: 255 bedeuted beste Verbindungsqualität.
+
+
+Vieles von oben ist optional:
+
+       "dae78e72daa1": {
+            "hostname": "Gateway-1-Tunnel-1",
+            "network": {
+                "mac": "da:e7:8e:72:da:a1",
+                "mesh": {
+                    "bat0": {
+                        "interfaces": {
+                            "tunnel": [
+                                "da:e7:8e:72:da:a1"
+                            ]
+                        }
+                    }
+                },
+                "mesh_interfaces": [
+                    "da:e7:8e:72:da:a1 "
+                ]
+            },
+            "node_id": "dae78e72daa1",
+            "hardware": {
+                "model": "Common KVM processor @ 2.26GHz",
+                "nproc": "2"
+            },
+        },
+        "flags": {
+            "gateway": true
+        },
+        "neighbours": {
+            "batadv": {
+                "da:e7:8e:72:da:a1": {}
+            
+                    }
+                }
+            }
+        }
+    },  
+
+
+Reicht prinzipiell.
+
+
+
 
 
