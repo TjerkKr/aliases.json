@@ -130,7 +130,7 @@ aliases.json for hopglass-server
 
 zum setzen der Koordinaten:
 
-                },
+				},
                 "location": {
                 "longitude": 11.013692021,
                 "latitude": 49.449364830
@@ -289,7 +289,11 @@ Vieles von oben ist optional:
 
 Reicht prinzipiell.
 
+Daten wie Auslastung. Ram-Verbrauch, CPU Model, und ähnliches können mittels:
 
+     https://github.com/hopglass/node-respondd
+     
+oder ähnlichem überschrieben bzw ergänzt werden.
 
 
 
