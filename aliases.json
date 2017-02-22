@@ -96,7 +96,7 @@
                 "da:e7:8e:72:da:a1": {},
                 "da:00:8e:72:da:a1": {
                     "neighbours": {
-                        "26:13:9d:ea:e1:e1": { "lastseen": 0.08, "tq": 255 },
+                        "52:54:00:00:cb:c1": { "lastseen": 0.08, "tq": 255 },
                         "da:00:8e:72:da:a2": { "lastseen": 0.08, "tq": 255 }
                     }
                 }
@@ -159,14 +159,14 @@
                 "da:e7:8e:72:da:a2": {},
                 "da:00:8e:72:da:a2": {
                     "neighbours": {
-                        "26:13:9d:ea:e1:e2": { "lastseen": 0.08, "tq": 255 },
+                        "52:54:00:00:cb:c2": { "lastseen": 0.08, "tq": 255 },
                         "da:00:8e:72:da:a1": { "lastseen": 0.08, "tq": 255 }
                     }
                 }
             }
         }
     },
-  "26139deae111": {
+  "5254004ccbc1": {
         "nodeinfo": {
   "no": {          "location": {
                 "longitude": 6.817298,
@@ -180,25 +180,25 @@
                 "addresses": [
                     "10.185.0.3"
                 ],
-                "mac": "26:13:9d:ea:e1:11",
+                "mac": "52:54:00:4c:cb:c1",
                 "mesh": {
                     "bat0": {
                         "interfaces": {
                             "other": [
-                                "26:13:9d:ea:e1:e1"
+                                "52:54:00:00:cb:c1"
                             ],
                             "tunnel": [
-                                "26:13:9d:ea:e1:11"
+                                "52:54:00:4c:cb:c1"
                             ]
                         }
                     }
                 },
                 "mesh_interfaces": [
-                    "26:13:9d:ea:e1:11",
-                    "26:13:9d:ea:e1:e1"
+                    "52:54:00:4c:cb:c1",
+                    "52:54:00:00:cb:c1"
                 ]
             },
-            "node_id": "26139deae111",
+            "node_id": "5254004ccbc1",
             "hardware": {
                 "model": "Intel Xeon E312xx (Sandy Bridge) @ 3.40GHz",
                 "nproc": "2"
@@ -219,18 +219,18 @@
         },
         "neighbours": {
             "batadv": {
-                "26:13:9d:ea:e1:11": {},
-                "26:13:9d:ea:e1:e1": {
+                "52:54:00:4c:cb:c1": {},
+                "52:54:00:00:cb:c1": {
                     "neighbours": {
                         "da:00:8e:72:da:a1": { "lastseen": 0.08, "tq": 255 },
                         "26:13:9d:da:31:01": { "lastseen": 0.08, "tq": 255 },
-                        "26:13:9d:ea:e1:e2": { "lastseen": 0.08, "tq": 255 }
+                        "52:54:00:00:cb:c2": { "lastseen": 0.08, "tq": 255 }
                     }
                 }
             }
         }
     },
-"26139deae112": {
+"5254004ccbc2": {
         "nodeinfo": {
   "no": {          "location": {
                 "longitude": 6.817298,
@@ -244,25 +244,25 @@
                 "addresses": [
                     "10.185.0.3"
                 ],
-                "mac": "26:13:9d:ea:e1:12",
+                "mac": "52:54:00:4c:cb:c2",
                 "mesh": {
                     "bat0": {
                         "interfaces": {
                             "other": [
-                                "26:13:9d:ea:e1:e2"
+                                "52:54:00:00:cb:c2"
                             ],
                             "tunnel": [
-                                "26:13:9d:ea:e1:12"
+                                "52:54:00:4c:cb:c2"
                             ]
                         }
                     }
                 },
                 "mesh_interfaces": [
-                    "26:13:9d:ea:e1:12",
-                    "26:13:9d:ea:e1:e2"
+                    "52:54:00:4c:cb:c2",
+                    "52:54:00:00:cb:c2"
                 ]
             },
-            "node_id": "26139deae112",
+            "node_id": "5254004ccbc2",
             "hardware": {
                 "model": "Intel Xeon E312xx (Sandy Bridge) @ 3.40GHz",
                 "nproc": "2"
@@ -283,12 +283,12 @@
         },
         "neighbours": {
             "batadv": {
-                "26:13:9d:ea:e1:12": {},
-                "26:13:9d:ea:e1:e2": {
+                "52:54:00:4c:cb:c2": {},
+                "52:54:00:00:cb:c2": {
                     "neighbours": {
                         "da:00:8e:72:da:a2": { "lastseen": 0.08, "tq": 255 },
                         "26:13:9d:da:31:02": { "lastseen": 0.08, "tq": 255 },
-                        "26:13:9d:ea:e1:e1": { "lastseen": 0.08, "tq": 255 }
+                        "52:54:00:00:cb:c1": { "lastseen": 0.08, "tq": 255 }
                     }
                 }
             }
@@ -350,7 +350,7 @@
                 "26:13:9d:da:31:81": {},
                 "26:13:9d:da:31:01": {
                     "neighbours": {
-                        "26:13:9d:ea:e1:e1": { "lastseen": 0.08, "tq": 255 },
+                        "52:54:00:00:cb:c1": { "lastseen": 0.08, "tq": 255 },
                         "26:13:9d:da:31:02": { "lastseen": 0.08, "tq": 255 }
                     }
                 }
@@ -413,7 +413,7 @@
                 "26:13:9d:da:31:82": {},
                 "26:13:9d:da:31:02": {
                     "neighbours": {
-                      "26:13:9d:ea:e1:e2": { "lastseen": 0.08, "tq": 255 },
+                      "52:54:00:00:cb:c2": { "lastseen": 0.08, "tq": 255 },
                       "26:13:9d:da:31:01": { "lastseen": 0.08, "tq": 255 }
                     }
                 }
