@@ -213,12 +213,12 @@ Man kann aber auch mehrere Webseiten angeben.
         }
     },
     
-#### Neigbours 
+#### Neighbours 
 Hierüber definiert man die Netzwerkverbindungen.
     "neighbours": {
         "batadv": {
 
-Das erste Interface ist das VPN interfac:
+Das erste Interface ist das VPN interface:
 
             "da:e7:8e:72:da:a1": {},
             
